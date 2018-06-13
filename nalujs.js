@@ -3,8 +3,10 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 5000,
         infinite: true,
         arrows: true
     })
+    $('.tabs').tabs();
+
 });

@@ -1,6 +1,16 @@
+.slick-prev{
+	left: 0%;
+}
+.slick-next{
+	right:0%;
+}
+
 .isso{
-	size: 50%;
-	vertical-align: center;
+	display: flex;
+	align-items: center;
+	/* padding: 50px; */
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 div #nome h1{
@@ -18,20 +28,30 @@ div #menu1{
 	height: 60px;
 	margin: -13;
 	display: inline;
-	
+
 }
 
 div #menu1 ul{
 	list-style-type: none;
     text-align: center;
-    padding: 0;
+	padding: 0;
+}
 
+div #osdois{
+	box-shadow: 0px 15px 10px -16px rgba(0,0,0,0.3);
 }
 
 div #menu1 li{
 	display: inline-block;
 	float: center;
+	
+}
 
+.active {
+	border-bottom: 3px solid #669966;
+	font-family: "Roboto";
+	color: #669966;
+	
 }
 
 div #menu1 a{
@@ -39,19 +59,19 @@ div #menu1 a{
 	text-decoration: none;
 	font-family: "Roboto";
 	font-size: 1.6em;
-	color: #669966;
+	color: #99cc99;
 	margin: 10px 15px;
 	padding: 8px 50px;
 }
 
 
-div #menu1 a:hover {
-	color: #99cc99;
-	text-decoration: underline;
-}
+/* div #menu1 a:hover {
+	color: #669966;
+	text-decoration: underline ;
+} */
 
 div #menu1 h1 {
-	color: #669966;
+	color: #99cc99;
 	font-size: 1.6em;
 }
 

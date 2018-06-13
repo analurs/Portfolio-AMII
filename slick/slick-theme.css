@@ -24,6 +24,7 @@
 
     position: absolute;
     top: 50%;
+    z-index: 1;
 
     display: block;
 
@@ -71,7 +72,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #336666;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,11 +80,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 0%;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 0%;
     left: auto;
 }
 .slick-prev:before
@@ -97,12 +98,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 0%;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 0%;
 }
 .slick-next:before
 {
