@@ -1,9 +1,29 @@
+
+figcaption{
+	
+	text-decoration: none;
+	font-family: "Roboto";
+	font-weight: medium;
+	margin: 20px 50px;
+	color: #336666;
+
+}
+
+#pagimag{
+	list-style: none;
+}
+
+#pagimag li{
+	display: inline-block;
+}
+
 .outubro {
 	width:440px; 
 	height:291px;
 	overflow: hidden;
 	
 }
+
 .slick-prev{
 	left: 0%;
 }
@@ -34,7 +54,7 @@ div #menu1{
 	height: 60px;
 	margin: -13;
 	display: inline;
-
+	
 }
 
 div #menu1 ul{
@@ -81,13 +101,14 @@ div #menu1 h1 {
 	font-size: 1.6em;
 }
 
-div #home h1{
+.titulo{
 	margin: 20px 575px;
 	text-align: center;	
 	color: #336666;
 	font-family: "Roboto";
 	font-weight: medium;
 }
+
 
 div #home img{
 	display: block;
@@ -134,33 +155,8 @@ div #home #segundotexto{
 	font-family: "Montserrat", sans-serif;
 }
 
-div #pagimag figure{
-	display: inline-block;
-	margin: 20px 50px;	
-}
 
-div #pagimag {
-	text-align: center;
-}
 
-div #pagimag figure figcaption{
-	color: #336666;
-	font-family: "Roboto";
-	font-weight: bold;
-	margin: 20px 50px;	
-}
-
-div #pagimag a:hover {
-    opacity: 0.6;
-}
-
-div #form h1{
-	margin: 20px 575px;
-	text-align: center;	
-	color: #336666;
-	font-family: "Roboto";
-	font-weight: medium;
-}
 
 div #form ul{
 	list-style-type: none;
@@ -168,8 +164,9 @@ div #form ul{
     padding: 0;
 }
 
-input {
-    width: 40%;
+#form input {
+	width: 40%;
+	height: 2%;
     padding: 12px 20px;
     margin: 15px 0;
     border-radius: 7px;
@@ -205,11 +202,5 @@ button:hover{
 .carousel-item {
 	overflow: hidden;
 }
-div #carouselExampleFade {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	overflow: hidden;
-}
+
 

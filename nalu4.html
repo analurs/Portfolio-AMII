@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<link rel="stylesheet" type="text/css" href="nalucss.css">
-			<title> CONTATO </title>
+			<title> contato </title>
 			<meta charset="utf-8">
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     		<script type="text/javascript" src="nalujs.js"></script>
+			<link rel="stylesheet" type="text/css" href="nalucss.css">
 		</head>
 		<body>
 			<div id="tela">
@@ -13,23 +16,20 @@
 							</div>
 							<div id="menu1">
 								<ul>  
-									<li><a href="nalu1.html" >info</a></li>
-									<!-- <li><h1>|</h1></li> -->
+									<li><a href="index.html" >info</a></li>
 									<li><a href="nalu2.html">portfólio</a></li>
-									<!-- <li><h1>|</h1></li> -->
-									<!-- <li><h1>|</h1></li> -->
 									<li  class = "active"><a href="nalu4.html">contato</a></li>       
 								</ul>
 							</div>
 						 </div>
 				<div id="form">
 					<form>
-						<h1>CONTATO</h1>
+						<h1 class="titulo">CONTATO</h1>
 						<ul>
 							<li><input type="text" name="nome" placeholder="Nome"><br></li>
 							<li><input type="text" name="email" placeholder="E-mail"><br></li>
 							<li><textarea name="texto" placeholder="Texto"></textarea></li></li>
-						 	<li><button type="button" onclick="alert('Enviado!')">Enviar</button>
+						 	<li><button id="send-btn" type="button">Enviar</button>
 						</ul>
 					</form>
 				</div>
